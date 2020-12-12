@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle nodable",
+        "command": "nodable:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "nodable",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "nodable:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
