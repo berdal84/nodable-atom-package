@@ -2,7 +2,13 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle nodable",
+        "label": "Nodable (on/off)",
+        "command": "nodable:toggle"
+      }
+    ],
+    "atom-workspace": [
+      {
+        "label": "Edit with Nodable",
         "command": "nodable:toggle"
       }
     ]
@@ -12,10 +18,10 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "nodable",
+          "label": "Nodable",
           "submenu": [
             {
-              "label": "Toggle",
+              "label": "Toggle (on/off)",
               "command": "nodable:toggle"
             }
           ]
